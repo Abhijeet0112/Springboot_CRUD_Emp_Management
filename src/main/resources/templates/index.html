@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head th:replace="commons/all_head_links :: head">
+</head>
+<body>
+
+
+<!--Replace below div with nav bar-->
+<div th:replace="header :: nav"/>
+
+<div class="container">
+
+    <h1 class="mx-auto text-center py-5 w-50">Welcome to SPRK TECH Employee Management System</h1>
+
+
+    <div class="d-flex justify-content-center gap-5">
+
+
+        <a type="button" class="btn btn-lg btn-secondary" th:href="@{/employee}">Add Employee</a>
+        <a type="button" class="btn btn-lg btn-secondary" th:href="@{/employee/dashboard}">List Employees</a>
+
+
+    </div>
+
+</div>
+
+<th:block th:replace="commons/all_js_links::div"></th:block>
+</body>
+</html>
