@@ -124,8 +124,25 @@ Springboot_CRUD_Emp_Management/
 
 ## Screenshots
 
-*Include relevant screenshots here to demonstrate the UI of the application.*
+### 1. Home Page  
+![Home Page](./projectphotos/home.png)
 
+### 2. Add Employee Page  
+![Add Employee Page](./projectphotos/addemployee.png)
+
+### 3. List of Employees  
+![List of Employees](./projectphotos/listofemployee.png)
+
+### 4. Update Employee Form  
+![Update Employee Form](./projectphotos/updateempform.png)
+
+### 5. Update Success Message  
+![Update Success](./projectphotos/updatesuccess.png)
+
+### 6. Delete Success Message  
+![Delete Success](./projectphotos/deletesuccess.png)
+
+---
 ---
 
 ## Contributions
